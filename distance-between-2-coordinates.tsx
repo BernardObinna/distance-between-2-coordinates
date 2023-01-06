@@ -73,7 +73,7 @@ function calculateDistance(gc) {
   gc.distance_miles = gc.distance_kilometres / KILOMETRES_IN_MILE;
 }
 
-export const calcGreatCircle = (
+export const calcDistanceBtwCoordinates = (
   location1,
   latitude1_degrees,
   longitude1_degrees,
